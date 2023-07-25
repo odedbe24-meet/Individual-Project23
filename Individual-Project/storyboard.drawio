@@ -1,0 +1,84 @@
+<mxfile host="65bd71144e">
+    <diagram id="miyfenvEMJEoSAg5hIJe" name="Page-1">
+        <mxGraphModel dx="748" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" style="edgeStyle=none;html=1;fontSize=16;" edge="1" parent="1" source="2" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;font size=&quot;3&quot;&gt;&quot;/&quot;&lt;br&gt;Login page&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font size=&quot;3&quot;&gt;&quot;/signup&quot;&lt;br&gt;signup page&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&quot;/home&quot;&lt;br&gt;main page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Might Have Some Random Music Recommendation,&lt;br&gt;Navigation Bar To Other Pages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="150" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&quot;/profile&quot;&lt;br&gt;profile page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Might Have Some Random Facts About Your Music Tase, And Presonal Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="530" width="180" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" y="390" as="sourcePoint"/>
+                        <mxPoint x="540" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" y="390" as="sourcePoint"/>
+                        <mxPoint x="560" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&quot;/ai_recommendation&quot;&lt;br&gt;ai Recommendation&amp;nbsp;page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="230" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Might Have A Text Box Where You Can Insert A Song And The AI Will Gie You A simiilar One" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="160" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="350" as="sourcePoint"/>
+                        <mxPoint x="150" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="610" y="480" as="sourcePoint"/>
+                        <mxPoint x="560" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&quot;/ask_recommendation&quot;&lt;br&gt;ask for recomendation page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="410" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="A Page Where You Can Ask For A Human Recommendation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="480" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="25" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="710" y="440" as="sourcePoint"/>
+                        <mxPoint x="780" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="&quot;/give_recommendation&quot;&lt;br&gt;a forum type page&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="410" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="This Page Will Include A Forum Where You Can See What Recommendation Was Asked And Answer It" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="817.5" y="490" width="212.5" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <link rel="stylesheet" href="static/css/navbar.css"></link>
+        <a href="/home">Home</a>
+        <a class="active" href="/ai">AI</a>
+        <a href="/get">Get</a>
+        <a href="/give">Give</a>
+        <a href="/profile">Profile</a>
+        <a href="/logout">Logout</a>
+      </div>
+
+
+      <form action="/ai" method="post">
+        <input type="text" name="search_word" placeholder="search for a song">
+        <input type="submit">
+      </form>
+
+      {%for track in rec_name%}
+      <p>{{track}} - {{rec_name[track]}}</p>
+      {%endfor%}
+
+</body>
+</html>
