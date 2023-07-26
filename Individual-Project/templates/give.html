@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+  
     <div class="topnav">
         <link rel="stylesheet" href="static/css/navbar.css"></link>
         <a href="/home">Home</a>
@@ -13,21 +14,28 @@
         <a href="/get">Get</a>
         <a class="active" href="#about">Give</a>
         <a href="/profile">Profile</a>
-        <a href="/logout">Logout</a>
+        <a id="logout" href="/logout">Logout</a>
       </div>
 
-      {%for req in reqs%}
+      <link rel="stylesheet" href="static/css/give.css">
+
+      
+      <div class="container">
+        {% for req in reqs %}
         <div>
-        <p>---------------------------------------</p>
-        <h1>{{reqs[req]['title']}}</h1>
-        <h2>{{reqs[req]['body']}}</h2>
-        <h3>{{reqs[req]['username']}}</h3>
-        <input type="button" value="Recommend">
-        <p>---------------------------------------</p>
+            <h1>{{ reqs[req]['title'] }}</h1>
+            <h2>{{ reqs[req]['body'] }}</h2>
+            <h3>User: {{ reqs[req]['username'] }}</h3>
+            <form action="/give" method="post">
+                <input type="text" name="answer" placeholder="Your recommendation">
+                <input type="submit" value="Recommend">
+                <input type="hidden" value="{{ req }}" name="ID">
+            </form>
+            {% for ans in reqs[req]['Answers'] %}
+            <p>{{ reqs[req]['Answers'][ans] }} Recommend: {{ ans }}</p>
+            {% endfor %}
         </div>
-
-
-      {%endfor%}
-
+        {% endfor %}
+    </div>
 </body>
 </html>

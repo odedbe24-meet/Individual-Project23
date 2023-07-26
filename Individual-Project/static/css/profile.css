@@ -1,0 +1,35 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px; /* Center the profile section */
+  }
+  
+  .container img {
+    width: 120px; /* Adjust the size of the profile picture */
+    height: 120px; /* Adjust the size of the profile picture */
+    border-radius: 50%;
+    margin-bottom: 20px; /* Increase the margin to add more space between the picture and the other elements */
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    color: #2980b9;
+    margin-bottom: 5px;
+  }
+  
+  .container h2 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px; /* Adjust the margin to add more space between the username and email */
+  }

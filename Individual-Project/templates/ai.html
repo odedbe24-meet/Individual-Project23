@@ -8,23 +8,33 @@
 <body>
     <div class="topnav">
         <link rel="stylesheet" href="static/css/navbar.css"></link>
+        <link rel="stylesheet" href="static/css/ai.css">
         <a href="/home">Home</a>
         <a class="active" href="/ai">AI</a>
         <a href="/get">Get</a>
         <a href="/give">Give</a>
         <a href="/profile">Profile</a>
-        <a href="/logout">Logout</a>
+        <a id="logout" href="/logout">Logout</a>
       </div>
 
 
+      
+    <div class="container">
       <form action="/ai" method="post">
-        <input type="text" name="search_word" placeholder="search for a song">
-        <input type="submit">
+          <input type="text" name="search_word" placeholder="search for a song or a band">
+          <input type="submit">
       </form>
+  </div>
 
-      {%for track in rec_name%}
-      <p>{{track}} - {{rec_name[track]}}</p>
-      {%endfor%}
+  <div class="track-list-container">
+    <ul class="track-list">
+        {% for track in rec_name %}
+        <li class="track-list-item">
+            <a href="{{ rec_link[loop.index0] }}" target="_blank"><span class="track-name">{{ track }}</span></a> - <span class="recommendation">{{ rec_name[track] }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 
 </body>
 </html>

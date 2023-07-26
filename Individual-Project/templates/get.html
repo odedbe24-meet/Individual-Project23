@@ -1,34 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="topnav">
-        <link rel="stylesheet" href="static/css/navbar.css"></link>
-        <a href="/home">Home</a>
-        <a href="/ai">AI</a>
-        <a class="active" href="/get">Get</a>
-        <a href="/give">Give</a>
-        <a href="/profile">Profile</a>
-        <a href="/logout">Logout</a>
-      </div>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+  </head>
+  <body>
+      <div class="topnav">
+          <link rel="stylesheet" href="static/css/navbar.css"></link>
+          <link rel="stylesheet" href="static/css/get.css">   
+          <a href="/home">Home</a>
+          <a href="/ai">AI</a>
+          <a class="active" href="/get">Get</a>
+          <a href="/give">Give</a>
+          <a href="/profile">Profile</a>
+          <a id="logout" href="/logout">Logout</a>
+        </div>
 
 
-      <form action="/get" method="post">
+        <form action="/get" method="post">
+          <h2>Enter A Name Of A Song You Like And Description Of What You Want To Find</h1>
+          <input type="text" name="title" placeholder="tite">
+          <input type="text" name="body" placeholder="body">
+          <input type="submit">
 
-        <input type="text" name="title" placeholder="tite">
-        <input type="text" name="body" placeholder="body">
-        <input type="submit">
-
-      </form>
-
-
+        </form>
 
 
 
 
-</body>
-</html>
+
+
+  </body>
+  </html>
